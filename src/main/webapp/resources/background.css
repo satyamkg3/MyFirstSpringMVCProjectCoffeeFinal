@@ -1,0 +1,85 @@
+body
+{
+    background-color: cadetblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    border-bottom: 1px solid;
+    background-color: coral;
+    color: black;
+    height: 50px;
+}
+td{
+    align-content: center;
+}
+tr{
+    line-height: 30px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: chocolate;
+}
+
+a:link, a:visited{
+    background-color: coral;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.header{
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+}
+.links
+{
+    overflow: hidden;
+    background-color: goldenrod;
+    alignment: center;
+}
+.links a
+{
+    float: end;
+    display: block;
+    color:aliceblue;
+    text-align: center;
+}
+.links a:hover
+{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    background-color: goldenrod;
+    alignment: center;
+    float: end;
+    display: block;
+    color:aliceblue;
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+input[type=text] {
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    padding: 16px 32px;
+    margin: 4px 2px;
+}
